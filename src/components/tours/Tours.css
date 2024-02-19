@@ -1,0 +1,35 @@
+.Tours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Tours-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #afcbeb;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: #afcbeb;
+  }
+
+img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    /* box-shadow: 0px 0px 15px #78b0f0; */
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+}
