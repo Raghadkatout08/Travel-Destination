@@ -1,7 +1,33 @@
-h1 {
+/* h1 {
     margin-bottom: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     color: #78b0f0;
     
-}
+} */
+
+
+  nav{
+    background: #819eaf;
+    height: 60px;
+    width: 100%;
+  }
+
+  nav ul{
+    float: center;
+    margin-left: 45%;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 3 5px;
+  }
+  nav ul li a{
+    color: rgb(41, 11, 11);
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #6bb1e6;
+    transition: .5s;
+  }
