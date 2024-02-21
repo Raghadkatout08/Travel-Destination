@@ -1,10 +1,15 @@
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
 
     return (
         <>
-            <h1> Welcome To Travel Destination web application</h1>
+            <nav>
+                <ul>
+                    <li><Link to={'/'}> Home </Link></li>
+                </ul>
+            </nav>
         </>
     )
 }
